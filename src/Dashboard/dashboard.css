@@ -1,0 +1,104 @@
+.dashboard-wrapper {
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 12vh;
+  width: 100vw;
+}
+
+.dashboard-wrapper > h2 {
+  font-weight: 500;
+}
+
+.dashboard-wrapper > form input {
+  width: 100%;
+  margin: 5px auto;
+  padding: 8px;
+  font-size: 15px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  border: 1px solid var(--theme-color);
+}
+
+.dashboard-wrapper > form button {
+  margin-bottom: 25px;
+  background-color: var(--theme-color);
+  padding: 7px;
+  border-radius: 80px;
+  font-family: "Righteous", cursive;
+}
+
+.dashboard-wrapper > h3 {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.error-div span {
+  color: red;
+  font-weight: 700;
+}
+
+.error-div {
+  display: block;
+  background-color: rgb(255, 236, 236);
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+/* Large Screen Tablets*/
+
+@media only screen and (min-width: 768px) {
+  .dashboard-wrapper {
+    margin-top: 11vh;
+    padding: 17px;
+  }
+  .dashboard-wrapper > form input {
+    margin: 8px auto;
+    padding: 10px;
+    font-size: 17px;
+  }
+  .dashboard-wrapper > form button {
+    padding: 7px;
+    font-size: 17px;
+  }
+  .dashboard-wrapper > h2 {
+    font-size: 32px;
+  }
+  .dashboard-wrapper > h3 {
+    font-size: 23px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  .dashboard-wrapper {
+    margin-top: 9vh;
+    padding: 20px;
+  }
+  .dashboard-wrapper > form input {
+    padding: 12px;
+    font-size: 19px;
+  }
+  .dashboard-wrapper > form button {
+    padding: 9px;
+    font-size: 19px;
+  }
+  .dashboard-wrapper > h2 {
+    font-size: 32px;
+  }
+  .dashboard-wrapper > h3 {
+    font-size: 27px;
+  }
+}
+
+/* Desktops*/
+
+@media only screen and (min-width: 1025px) {
+  .dashboard-wrapper {
+    width: 75vw;
+    margin: 12vh auto 0;
+  }
+  .dashboard-wrapper > h2 {
+    font-size: 30px;
+  }
+}

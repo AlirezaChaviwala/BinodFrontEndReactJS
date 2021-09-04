@@ -1,0 +1,89 @@
+.header-wrapper {
+  background-color: var(--theme-color);
+  width: 100vw;
+  height: 9vh;
+  display: flex;
+  flex-direction: row;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 10px grey;
+}
+
+.header {
+  font-family: "Righteous", cursive;
+  font-size: 45px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  /* margin-left: 16px; */
+}
+
+.header-nav > ul {
+  display: block;
+  width: 80vw;
+  right: -80vw;
+  top: 9vh;
+  position: absolute;
+  background-color: var(--theme-color);
+  opacity: 0.9;
+  flex-direction: column;
+  transition: right 0.3s 0s linear;
+  list-style-type: none;
+  text-align: center;
+  height: fit-content;
+  z-index: 2;
+  box-sizing: border-box;
+  justify-content: center;
+  box-shadow: 2px 2px 10px grey;
+}
+
+.header-nav > ul li a {
+  padding: 20px 35px;
+  display: block;
+}
+
+.header-wrapper a,.header-nav a {
+  text-decoration: none;
+  color: black;
+  font-family: "Righteous", cursive;
+}
+
+.fa-bars {
+  font-size: 30px;
+}
+
+.header-nav > ul hr {
+  margin: 0 auto;
+  height: 0.2px;
+  width: 95%;
+  background-color: black;
+  border: none;
+}
+
+/* Small Tablets*/
+
+@media only screen and (min-width: 481px){
+.header-nav>ul{
+    width: 65vw;
+}
+}
+
+/* Large Screen Tablets*/
+
+@media only screen and (min-width: 768px){
+    .header-nav,.header-nav{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px){
+      .header-wrapper{
+        height: 7vh;
+      }
+}
+
+

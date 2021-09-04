@@ -1,0 +1,13 @@
+.welcome-wrapper{
+    position: relative;
+    top: 9vh;
+    display: flex;
+    flex-direction: column;
+    padding: 12px 20px;
+}
+
+.welcome-content{
+    background-color: aqua;
+    width: 100%;
+    height:500px;
+}

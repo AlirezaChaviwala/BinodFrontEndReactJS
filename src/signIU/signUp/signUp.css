@@ -1,0 +1,137 @@
+.signup-wrapper {
+    width: 90vw;
+    height: fit-content;
+    margin: 10px auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+  }
+  
+  .signup-wrapper > hr {
+    height: 0.2px;
+    border: none;
+    background-color: black;
+    width: 100%;
+    margin: 10px auto;
+  }
+  
+  .signup-wrapper > form {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .signup-wrapper > form * {
+    display: block;
+    margin: 10px auto;
+  }
+  
+  .signup-wrapper > form input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border: 1px solid var(--theme-color);
+  }
+  
+  .signup-wrapper > form button {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: var(--theme-color);
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-family: "Righteous", cursive;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: white;
+  }
+  
+  .signup-wrapper > form button:hover {
+    background-color: var(--theme-dark);
+  }
+  
+  .signup-wrapper > p a {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .signup-wrapper>p a:hover{
+    color: var(--theme-dark);
+  }
+  
+  /* Small Tablets*/
+  
+  @media only screen and (min-width: 481px) {
+    .signup-wrapper >p{
+      font-size: 18px;
+    }
+  }
+  
+  /* Large Screen Tablets*/
+  
+  @media only screen and (min-width: 768px) {
+    .signup-wrapper{
+      width: 70vw;
+    }
+    .signup-wrapper>form{
+        font-size: 25px;
+    }
+    .signup-wrapper>h2{
+        font-size: 28px;
+    }
+    .signup-wrapper>p{
+        font-size: 23px;
+    }
+    .signup-wrapper>form button{
+        font-size: 25px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1024px){
+      .signup-wrapper{
+          width: 70vw;
+        }
+        .signup-wrapper>form{
+            font-size: 28px;
+        }
+        .signup-wrapper>h2{
+            font-size: 32px;
+        }
+        .signup-wrapper>p{
+            font-size: 28px;
+        }
+        .signup-wrapper>form input{
+            padding: 15px;
+        }
+        .signup-wrapper>form *{
+          margin: 15px auto;
+        }
+  }
+  
+  /* Desktops*/
+  
+  @media only screen and (min-width: 1025px){
+      .signup-wrapper{
+        margin: 10px 25px;
+          width: 35%;
+      }
+      .signup-wrapper>form{
+          font-size: 18px;
+      }
+      .signup-wrapper>h2{
+          font-size: 28px;
+      }
+      .signup-wrapper>p{
+          font-size: 17px;
+      }
+      .signup-wrapper>form input{
+          padding: 10px;
+      }
+      .signup-wrapper>form *{
+        margin: 10px auto;
+      }
+      .signup-wrapper>form button{
+          font-size: 20px;
+      }
+  }

@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --theme-color: #FFC107;
+    --theme-dark:#dea600;
+}

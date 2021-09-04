@@ -1,0 +1,45 @@
+.header-button {
+  display: none;
+}
+
+.log-out{
+display: block;
+background-color: white;
+    padding: 5px 10px;
+    border-radius: 30px;
+    color: black;
+    font-family: "Righteous", cursive;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 15px;
+}
+
+/* Large Screen Tablets*/
+
+@media only screen and (min-width: 768px) {
+  .header-button {
+    display: block;
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 30px;
+    color: black;
+    font-family: "Righteous", cursive;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  .header-button {
+    padding: 12px 17px;
+  }
+}
+
+/* Desktops*/
+
+@media only screen and (min-width: 1025px) {
+  .header-button {
+    padding: 6px 12px;
+  }
+}

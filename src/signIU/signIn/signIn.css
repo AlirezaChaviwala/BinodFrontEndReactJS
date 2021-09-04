@@ -1,0 +1,156 @@
+.signin-wrapper {
+  width: 90vw;
+  height: fit-content;
+  margin: 10px auto;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 20px;
+}
+
+.signin-wrapper > hr {
+  height: 0.2px;
+  border: none;
+  background-color: black;
+  width: 100%;
+  margin: 10px auto;
+}
+
+.signin-wrapper > form {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.signin-wrapper > form * {
+  display: block;
+  margin: 10px auto;
+}
+
+.signin-wrapper > form input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  border: 1px solid var(--theme-color);
+}
+
+.signin-wrapper>form a{
+  text-decoration: underline;
+  color: var(--theme-dark);
+}
+
+.signin-wrapper > form button {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: var(--theme-color);
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  font-family: "Righteous", cursive;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: white;
+}
+
+.signin-wrapper > form button:hover {
+  background-color: var(--theme-dark);
+}
+
+.signin-wrapper > p a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.signin-wrapper > p a:hover{
+  color: var(--theme-dark);
+}
+
+/* Small Tablets*/
+
+@media only screen and (min-width: 481px) {
+  .signin-wrapper >p{
+    font-size: 18px;
+  }
+}
+
+/* Large Screen Tablets*/
+
+@media only screen and (min-width: 768px) {
+  .signin-wrapper{
+    width: 70vw;
+  }
+  .signin-wrapper>form{
+      font-size: 25px;
+  }
+  .signin-wrapper>h2{
+      font-size: 28px;
+  }
+  .signin-wrapper>p{
+      font-size: 23px;
+  }
+  .signin-wrapper>form button{
+      font-size: 25px;
+  }
+}
+
+.error-div span{
+  color: red;
+  font-weight: 700;
+}
+
+.error-div{
+  display: block;
+  background-color: rgb(255, 236, 236);
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px){
+    .signin-wrapper{
+        width: 70vw;
+      }
+      .signin-wrapper>form{
+          font-size: 28px;
+      }
+      .signin-wrapper>h2{
+          font-size: 32px;
+      }
+      .signin-wrapper>p{
+          font-size: 28px;
+      }
+      .signin-wrapper>form input{
+          padding: 15px;
+      }
+      .signin-wrapper>form *{
+        margin: 15px auto;
+      }
+}
+
+/* Desktops*/
+
+@media only screen and (min-width: 1025px){
+    .signin-wrapper{
+      margin: 10px 25px;
+        width: 35%;
+    }
+    .signin-wrapper>form{
+        font-size: 18px;
+    }
+    .signin-wrapper>h2{
+        font-size: 28px;
+    }
+    .signin-wrapper>p{
+        font-size: 17px;
+    }
+    .signin-wrapper>form input{
+        padding: 10px;
+    }
+    .signin-wrapper>form *{
+      margin: 10px auto;
+    }
+    .signin-wrapper>form button{
+        font-size: 20px;
+    }
+}
